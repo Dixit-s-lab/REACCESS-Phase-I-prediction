@@ -1,2 +1,2 @@
 # REACCESS-Phase-I-prediction
-This approach/method predicts potential SOM for CYP450 catalyzed metabolism of drug-like compounds
+This method uses a combination of reactivity and accessibility approach to predict potential SOM for CYP450 catalyzed metabolism of drug-like compounds
