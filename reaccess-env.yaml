@@ -1,0 +1,17 @@
+name: reaccess_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.24
+  - pandas
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - pillow
+  - tk
+  - rdkit
+  - mdanalysis
+  - netcdf4
+  - scipy
