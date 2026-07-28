@@ -28,6 +28,16 @@ conda create --file reaccess-env.yaml
    
    These script will call the disangle-dock-MD2.py and 2D-image-reaccess.py scripts when required and perform all the analysis and save oputput
 
+5) Accessiblity volumne and area calculation for single or multiple docked poses (PDB files) or trajectories can be performed using
+
+   python calc_accessibility_cone.py --top structure.pdb
+
+   python calc_accessibility_cone.py --top structure1.pdb structure2.pdb
+
+   python calc_accessibility_cone.py --top system.prmtop --traj production.nc
+
+   python calc_accessibility_cone.py --top system.prmtop --traj production1.nc production2.nc
+
 -----------------------------------------------------------------------
 COMPLETE COMMAND-LINE OPTIONS
 -----------------------------------------------------------------------
